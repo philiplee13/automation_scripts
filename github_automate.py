@@ -1,1 +1,202 @@
-aW1wb3J0IGpzb24KaW1wb3J0IHJlcXVlc3RzCmltcG9ydCBvcwppbXBvcnQgYXN0CmltcG9ydCBiYXNlNjQKZ2l0aHViX3VzZXIgPSBzdHIoaW5wdXQoIlBsZWFzZSBlbnRlciBpbiB5b3VyIGdpdGh1YiBoYW5kbGU6ICIpKQpnaXRodWJfYXBpID0gb3MuZW52aXJvbi5nZXQoIkdJVEhVQl9BUEkiKQoKdmlldyA9IFRydWUKdXJsID0gImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlci9yZXBvcyIKciA9IHJlcXVlc3RzLlNlc3Npb24oKQpyLmF1dGggPSAoZ2l0aHViX3VzZXIsZ2l0aHViX2FwaSkKCiMgIyBwdXNoIGZpbGVzIHRvIGEgY2VydGFpbiByZXBvCiMgIyBnZXQgYSByZWZlcmVuY2UgdG8gdGhlIGhlYWQgCiMgcmVwbyA9ICJhdXRvbWF0aW9uX3NjcmlwdHMiCiMgcGF0aCA9ICJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3BoaWxpcGxlZTEzL2F1dG9tYXRpb25fc2NyaXB0cy9naXQvcmVmL2hlYWRzL21haW4iCiMgcmdldCA9IHIuZ2V0KHBhdGgpCiMgaGVhZF9yZWZlcmVuY2UgPSByZ2V0Lmpzb24oKQojICMgcHJpbnQoanNvbi5kdW1wcyhoZWFkX3JlZmVyZW5jZSxpbmRlbnQ9NCkpCiMgc2hhID0gaGVhZF9yZWZlcmVuY2VbIm9iamVjdCJdWyJzaGEiXQojIGhlYWRfdXJsID0gaGVhZF9yZWZlcmVuY2VbIm9iamVjdCJdWyJ1cmwiXQoKIyAjICMgZ3JhYiB0aGUgY29tbWl0IHRoZSBoZWFkIHBvaW50cyB0bwojIHJnZXQyID0gci5nZXQoaGVhZF91cmwpCiMgcmdldDJfanNvbiA9IHJnZXQyLmpzb24oKQojICMgcHJpbnQoanNvbi5kdW1wcyhyZ2V0Ml9qc29uLGluZGVudD00KSkKIyBjb21taXRfc2hhID0gcmdldDJfanNvblsicGFyZW50cyJdWzBdWyJzaGEiXQojIHRyZWVfc2hhID0gcmdldDJfanNvblsidHJlZSJdWyJzaGEiXQojIHRyZWVfdXJsID0gcmdldDJfanNvblsidHJlZSJdWyJ1cmwiXQoKIyAjICMgcG9zdCB5b3VyIG5ldyBmaWxlIHRvIHRoZSBzZXJ2ZXIKIyB1cmwgPSAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9waGlsaXBsZWUxMy9hdXRvbWF0aW9uX3NjcmlwdHMvZ2l0L2Jsb2JzIgojIGZpbGVuYW1lPSJnaXRodWJfYXV0b21hdGUucHkiCiMgYmFzZTY0Y29udGVudCA9IGJhc2U2NC5iNjRlbmNvZGUob3BlbihmaWxlbmFtZSwicmIiKS5yZWFkKCkpCiMgZGF0YSA9IHsKIyAgICAgIm1lc3NhZ2UiOiJ1cGRhdGUiLAojICAgICAiYnJhbmNoIjoibWFpbiIsCiMgICAgICJjb250ZW50IjpiYXNlNjRjb250ZW50LmRlY29kZSgidXRmLTgiKSwKIyAgICAgInNoYSI6c2hhCiMgICAgIH0KIyByZXNwID0gcmVxdWVzdHMucG9zdCh1cmwsZGF0YT1qc29uLmR1bXBzKGRhdGEpLGhlYWRlcnMgPSB7IkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiwgIkF1dGhvcml6YXRpb24iOiAidG9rZW4gIitnaXRodWJfYXBpfSkKIyByZXNwID0ganNvbi5sb2FkcyhyZXNwLnRleHQpCiMgcmVzcF9zaGEgPSByZXNwWyJzaGEiXQoKIyAjIGNyZWF0ZSBhIHRyZWUgY29udGFpbmluZyB5b3VyIG5ldyBmaWxlCiMgcG9zdF90cmVlX3VybCA9ICJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3BoaWxpcGxlZTEzL2F1dG9tYXRpb25fc2NyaXB0cy9naXQvdHJlZXMiCiMgZGF0YSA9IHsKIyAgICAgIyAiYmFzZV90cmVlIjogIiIsCiMgICAgICJ0cmVlIiA6IFsKIyAgICAgewojICAgICAicGF0aCI6ImdpdGh1Yl9hdXRvbWF0ZS5weSIsCiMgICAgICJtb2RlIjoiMTAwNjQ0IiwKIyAgICAgInR5cGUiOiJibG9iIiwKIyAgICAgInNoYSI6cmVzcF9zaGEKIyAgICAgfQojIF0KIyB9CiMgdHJlZV9maWxlID0gci5wb3N0KHBvc3RfdHJlZV91cmwsZGF0YT1qc29uLmR1bXBzKGRhdGEpLGhlYWRlcnMgPSB7IkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiwgIkF1dGhvcml6YXRpb24iOiAidG9rZW4gIitnaXRodWJfYXBpfSkKIyB0cmVlX2ZpbGUgPSBqc29uLmxvYWRzKHRyZWVfZmlsZS50ZXh0KQojIHRyZWVfZmlsZV9zaGEgPSB0cmVlX2ZpbGVbInNoYSJdCgojICMgY3JlYXRlIGEgbmV3IGNvbW1pdAojIGNvbW1pdF91cmwgPSAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9waGlsaXBsZWUxMy9hdXRvbWF0aW9uX3NjcmlwdHMvZ2l0L2NvbW1pdHMiCiMgZGF0YSA9IHsKIyAgICAgIm1lc3NhZ2UiOiJ1cGRhdGUgdGhyb3VnaCBhcGkiLAojICAgICAicGFyZW50cyI6W2NvbW1pdF9zaGFdLAojICAgICAidHJlZSI6dHJlZV9maWxlX3NoYQojIH0KIyBjb21taXRfcG9zdCA9IHIucG9zdChjb21taXRfdXJsLGRhdGE9anNvbi5kdW1wcyhkYXRhKSxoZWFkZXJzID0geyJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsICJBdXRob3JpemF0aW9uIjogInRva2VuICIrZ2l0aHViX2FwaX0pCiMgY29tbWl0X3Bvc3QgPSBqc29uLmxvYWRzKGNvbW1pdF9wb3N0LnRleHQpCiMgbmV3X2NvbW1pdF9zaGEgPSBjb21taXRfcG9zdFsic2hhIl0KCiMgIyB1cGRhdGUgaGVhZAojIHVwZGF0ZV91cmwgPSAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9waGlsaXBsZWUxMy9hdXRvbWF0aW9uX3NjcmlwdHMvZ2l0L3JlZnMvaGVhZHMvbWFpbiIKIyBkYXRhID0gewojICAgICAic2hhIjpuZXdfY29tbWl0X3NoYSwKIyAgICAgImZvcmNlIjpUcnVlCiMgfQojIHVwZGF0ZV9wb3N0ID0gci5wYXRjaCh1cGRhdGVfdXJsLGRhdGE9anNvbi5kdW1wcyhkYXRhKSxoZWFkZXJzID0geyJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsICJBdXRob3JpemF0aW9uIjogInRva2VuICIrZ2l0aHViX2FwaX0pCiMgdXBkYXRlX3Bvc3QgPSBqc29uLmxvYWRzKHVwZGF0ZV9wb3N0LnRleHQpCiMgcHJpbnQoanNvbi5kdW1wcyh1cGRhdGVfcG9zdCxpbmRlbnQ9NCkpCgoKCndoaWxlIHZpZXc6CiAgICAjIGhhdmUgb3B0aW9uIGZvciB1c2VyIHRvIGNob29zZSB0YXNrCiAgICBvcHRpb24gPSBpbnQoaW5wdXQoIiIiV2hpY2ggb2YgdGhlIG9wdGlvbnMgd291bGQgeW91IGxpa2UgdG8gZG8/CiAgICAxLiBWaWV3IGFsbCBSZXBvcz8KICAgIDIuIENyZWF0ZSBhIG5ldyByZXBvPwogICAgMy4gUHVzaCBmaWxlcyB0byBhIGNlcnRhaW4gcmVwbwogICAgIiIiKSkKICAgICMgb3B0aW9uIDEgLSB2aWV3IGFsbCBjdXJyZW50IHJlcG9zIAogICAgaWYgb3B0aW9uID09IDE6CiAgICAgICAgcmVwb3MgPSBqc29uLmxvYWRzKHIuZ2V0KHVybCkudGV4dCkKICAgICAgICBmb3IgcmVwbyBpbiByZXBvczoKICAgICAgICAgICAgcHJpbnQocmVwb1sibmFtZSJdKQogICAgICAgIGRvX21vcmUgPSBzdHIoaW5wdXQoIldvdWxkIHlvdSBsaWtlIHRvIGRvIHNvbWV0aGluZyBlbHNlPyBZL04iKSkudXBwZXIoKQogICAgICAgIGlmIGRvX21vcmUgPT0gIlkiOgogICAgICAgICAgICB2aWV3ID0gVHJ1ZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHZpZXcgPSBGYWxzZQogICAgIyBvcHRpb24gMiAtIGNyZWF0ZSBhIG5ldyByZXBvCiAgICBlbGlmIG9wdGlvbiA9PSAyOgogICAgICAgIHN0cl9kYXRhID0gKGlucHV0KCIiIgogICAgICAgIFBsZWFzZSBlbnRlciBpbiB0aGUgZm9sbG93aW5nIGluZm9ybWF0aW9uIGZvciB5b3VyIHJlcG8gaW4gdGhlIG9yZGVyIHByb3ZpZGVkCiAgICAgICAgTmFtZSxEZXNjcmlwdGlvbgogICAgICAgICIiIikpCiAgICAgICAgYm9vbGVhbl9kYXRhID0gaW5wdXQoIiIiCiAgICAgICAgUGxlYXNlIGVudGVyIFRydWUgb3IgRmFsc2UgaWYgeW91IG5lZWQgdGhlIGZvbGxvd2luZwogICAgICAgIFJFQURNRSxwcml2YXRlIHJlcG8KICAgICAgICAiIiIpCiAgICAgICAgYm9vbGVhbl9kYXRhID0gYm9vbGVhbl9kYXRhLnNwbGl0KCIsIikKICAgICAgICBkYXRhID0gewogICAgICAgICAgICAibmFtZSI6c3RyX2RhdGEuc3BsaXQoIiwiKVswXSwKICAgICAgICAgICAgImRlc2NyaXB0aW9uIjpzdHJfZGF0YS5zcGxpdCgiLCIpWzFdLAogICAgICAgICAgICAiYXV0b19pbml0Ijphc3QubGl0ZXJhbF9ldmFsKGJvb2xlYW5fZGF0YVswXSksCiAgICAgICAgICAgICJwcml2YXRlIjphc3QubGl0ZXJhbF9ldmFsKGJvb2xlYW5fZGF0YVsxXSkKICAgICAgICAgICAgfQogICAgICAgIHByaW50KGRhdGEpCiAgICAgICAgci5wb3N0KHVybCxqc29uLmR1bXBzKGRhdGEpKQogICAgICAgIGRvX21vcmUgPSBzdHIoaW5wdXQoIldvdWxkIHlvdSBsaWtlIHRvIGRvIHNvbWV0aGluZyBlbHNlPyBZL04iKSkudXBwZXIoKQogICAgICAgIGlmIGRvX21vcmUgPT0gIlkiOgogICAgICAgICAgICB2aWV3ID0gVHJ1ZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHZpZXcgPSBGYWxzZQogICAgZWxpZiBvcHRpb24gPT0gMzoKICAgICAgICAjIHB1c2ggZmlsZXMgdG8gYSBjZXJ0YWluIHJlcG8KICAgICAgICAKICAgICAgICAjIGdldCBhIHJlZmVyZW5jZSB0byB0aGUgaGVhZCAKICAgICAgICByZXBvID0gImF1dG9tYXRpb25fc2NyaXB0cyIKICAgICAgICBwYXRoID0gImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvcGhpbGlwbGVlMTMvYXV0b21hdGlvbl9zY3JpcHRzL2dpdC9yZWYvaGVhZHMvbWFpbiIKICAgICAgICByZ2V0ID0gci5nZXQocGF0aCkKICAgICAgICBoZWFkX3JlZmVyZW5jZSA9IHJnZXQuanNvbigpCiAgICAgICAgIyBwcmludChqc29uLmR1bXBzKGhlYWRfcmVmZXJlbmNlLGluZGVudD00KSkKICAgICAgICBzaGEgPSBoZWFkX3JlZmVyZW5jZVsib2JqZWN0Il1bInNoYSJdCiAgICAgICAgaGVhZF91cmwgPSBoZWFkX3JlZmVyZW5jZVsib2JqZWN0Il1bInVybCJdCgogICAgICAgICMgZ3JhYiB0aGUgY29tbWl0IHRoZSBoZWFkIHBvaW50cyB0bwogICAgICAgIHJnZXQyID0gci5nZXQoaGVhZF91cmwpCiAgICAgICAgcmdldDJfanNvbiA9IHJnZXQyLmpzb24oKQogICAgICAgICMgcHJpbnQoanNvbi5kdW1wcyhyZ2V0Ml9qc29uLGluZGVudD00KSkKICAgICAgICBjb21taXRfc2hhID0gcmdldDJfanNvblsicGFyZW50cyJdWzBdWyJzaGEiXQogICAgICAgIHRyZWVfc2hhID0gcmdldDJfanNvblsidHJlZSJdWyJzaGEiXQogICAgICAgIHRyZWVfdXJsID0gcmdldDJfanNvblsidHJlZSJdWyJ1cmwiXQoKICAgICAgICAjICMgcG9zdCB5b3VyIG5ldyBmaWxlIHRvIHRoZSBzZXJ2ZXIKICAgICAgICB1cmwgPSAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9waGlsaXBsZWUxMy9hdXRvbWF0aW9uX3NjcmlwdHMvZ2l0L2Jsb2JzIgogICAgICAgIGZpbGVuYW1lPSJnaXRodWJfYXV0b21hdGUucHkiCiAgICAgICAgYmFzZTY0Y29udGVudCA9IGJhc2U2NC5iNjRlbmNvZGUob3BlbihmaWxlbmFtZSwicmIiKS5yZWFkKCkpCiAgICAgICAgZGF0YSA9IHsKICAgICAgICAgICAgIm1lc3NhZ2UiOiJ1cGRhdGUiLAogICAgICAgICAgICAiYnJhbmNoIjoibWFpbiIsCiAgICAgICAgICAgICJjb250ZW50IjpiYXNlNjRjb250ZW50LmRlY29kZSgidXRmLTgiKSwKICAgICAgICAgICAgInNoYSI6c2hhCiAgICAgICAgICAgIH0KICAgICAgICByZXNwID0gcmVxdWVzdHMucG9zdCh1cmwsZGF0YT1qc29uLmR1bXBzKGRhdGEpLGhlYWRlcnMgPSB7IkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiwgIkF1dGhvcml6YXRpb24iOiAidG9rZW4gIitnaXRodWJfYXBpfSkKICAgICAgICByZXNwID0ganNvbi5sb2FkcyhyZXNwLnRleHQpCiAgICAgICAgcmVzcF9zaGEgPSByZXNwWyJzaGEiXQoKICAgICAgICAjIGNyZWF0ZSBhIHRyZWUgY29udGFpbmluZyB5b3VyIG5ldyBmaWxlCiAgICAgICAgcG9zdF90cmVlX3VybCA9ICJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3BoaWxpcGxlZTEzL2F1dG9tYXRpb25fc2NyaXB0cy9naXQvdHJlZXMiCiAgICAgICAgZGF0YSA9IHsKICAgICAgICAgICAgIyAiYmFzZV90cmVlIjogIiIsCiAgICAgICAgICAgICJ0cmVlIiA6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAicGF0aCI6ImdpdGh1Yl9hdXRvbWF0ZS5weSIsCiAgICAgICAgICAgICJtb2RlIjoiMTAwNjQ0IiwKICAgICAgICAgICAgInR5cGUiOiJibG9iIiwKICAgICAgICAgICAgInNoYSI6cmVzcF9zaGEKICAgICAgICAgICAgfQogICAgICAgIF0KICAgICAgICB9CiAgICAgICAgdHJlZV9maWxlID0gci5wb3N0KHBvc3RfdHJlZV91cmwsZGF0YT1qc29uLmR1bXBzKGRhdGEpLGhlYWRlcnMgPSB7IkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiwgIkF1dGhvcml6YXRpb24iOiAidG9rZW4gIitnaXRodWJfYXBpfSkKICAgICAgICB0cmVlX2ZpbGUgPSBqc29uLmxvYWRzKHRyZWVfZmlsZS50ZXh0KQogICAgICAgIHRyZWVfZmlsZV9zaGEgPSB0cmVlX2ZpbGVbInNoYSJdCgogICAgICAgICMgY3JlYXRlIGEgbmV3IGNvbW1pdAogICAgICAgIGNvbW1pdF91cmwgPSAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9waGlsaXBsZWUxMy9hdXRvbWF0aW9uX3NjcmlwdHMvZ2l0L2NvbW1pdHMiCiAgICAgICAgZGF0YSA9IHsKICAgICAgICAgICAgIm1lc3NhZ2UiOiJ1cGRhdGUgdGhyb3VnaCBhcGkiLAogICAgICAgICAgICAicGFyZW50cyI6W2NvbW1pdF9zaGFdLAogICAgICAgICAgICAidHJlZSI6dHJlZV9maWxlX3NoYQogICAgICAgIH0KICAgICAgICBjb21taXRfcG9zdCA9IHIucG9zdChjb21taXRfdXJsLGRhdGE9anNvbi5kdW1wcyhkYXRhKSxoZWFkZXJzID0geyJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsICJBdXRob3JpemF0aW9uIjogInRva2VuICIrZ2l0aHViX2FwaX0pCiAgICAgICAgY29tbWl0X3Bvc3QgPSBqc29uLmxvYWRzKGNvbW1pdF9wb3N0LnRleHQpCiAgICAgICAgbmV3X2NvbW1pdF9zaGEgPSBjb21taXRfcG9zdFsic2hhIl0KCiAgICAgICAgIyB1cGRhdGUgaGVhZAogICAgICAgIHVwZGF0ZV91cmwgPSAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9waGlsaXBsZWUxMy9hdXRvbWF0aW9uX3NjcmlwdHMvZ2l0L3JlZnMvaGVhZHMvbWFpbiIKICAgICAgICBkYXRhID0gewogICAgICAgICAgICAic2hhIjpuZXdfY29tbWl0X3NoYSwKICAgICAgICAgICAgImZvcmNlIjpUcnVlCiAgICAgICAgfQogICAgICAgIHVwZGF0ZV9wb3N0ID0gci5wYXRjaCh1cGRhdGVfdXJsLGRhdGE9anNvbi5kdW1wcyhkYXRhKSxoZWFkZXJzID0geyJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsICJBdXRob3JpemF0aW9uIjogInRva2VuICIrZ2l0aHViX2FwaX0pCiAgICAgICAgdXBkYXRlX3Bvc3QgPSBqc29uLmxvYWRzKHVwZGF0ZV9wb3N0LnRleHQpCiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyh1cGRhdGVfcG9zdCxpbmRlbnQ9NCkpCiAgICAgICAgZG9fbW9yZSA9IHN0cihpbnB1dCgiV291bGQgeW91IGxpa2UgdG8gZG8gc29tZXRoaW5nIGVsc2U/IFkvTiIpKS51cHBlcigpCiAgICAgICAgaWYgZG9fbW9yZSA9PSAiWSI6CiAgICAgICAgICAgIHZpZXcgPSBUcnVlCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdmlldyA9IEZhbHNl
+import json
+import requests
+import os
+import ast
+import base64
+github_user = str(input("Please enter in your github handle: "))
+github_api = os.environ.get("GITHUB_API")
+
+view = True
+url = "https://api.github.com/user/repos"
+r = requests.Session()
+r.auth = (github_user,github_api)
+
+# # push files to a certain repo
+# # get a reference to the head 
+# repo = "automation_scripts"
+# path = "https://api.github.com/repos/philiplee13/automation_scripts/git/ref/heads/main"
+# rget = r.get(path)
+# head_reference = rget.json()
+# # print(json.dumps(head_reference,indent=4))
+# sha = head_reference["object"]["sha"]
+# head_url = head_reference["object"]["url"]
+
+# # # grab the commit the head points to
+# rget2 = r.get(head_url)
+# rget2_json = rget2.json()
+# # print(json.dumps(rget2_json,indent=4))
+# commit_sha = rget2_json["parents"][0]["sha"]
+# tree_sha = rget2_json["tree"]["sha"]
+# tree_url = rget2_json["tree"]["url"]
+
+# # # post your new file to the server
+# url = "https://api.github.com/repos/philiplee13/automation_scripts/git/blobs"
+# filename="github_automate.py"
+# base64content = base64.b64encode(open(filename,"rb").read())
+# data = {
+#     "message":"update",
+#     "branch":"main",
+#     "content":base64content.decode("utf-8"),
+#     "sha":sha
+#     }
+# resp = requests.post(url,data=json.dumps(data),headers = {"Content-Type": "application/json", "Authorization": "token "+github_api})
+# resp = json.loads(resp.text)
+# resp_sha = resp["sha"]
+
+# # create a tree containing your new file
+# post_tree_url = "https://api.github.com/repos/philiplee13/automation_scripts/git/trees"
+# data = {
+#     # "base_tree": "",
+#     "tree" : [
+#     {
+#     "path":"github_automate.py",
+#     "mode":"100644",
+#     "type":"blob",
+#     "sha":resp_sha
+#     }
+# ]
+# }
+# tree_file = r.post(post_tree_url,data=json.dumps(data),headers = {"Content-Type": "application/json", "Authorization": "token "+github_api})
+# tree_file = json.loads(tree_file.text)
+# tree_file_sha = tree_file["sha"]
+
+# # create a new commit
+# commit_url = "https://api.github.com/repos/philiplee13/automation_scripts/git/commits"
+# data = {
+#     "message":"update through api",
+#     "parents":[commit_sha],
+#     "tree":tree_file_sha
+# }
+# commit_post = r.post(commit_url,data=json.dumps(data),headers = {"Content-Type": "application/json", "Authorization": "token "+github_api})
+# commit_post = json.loads(commit_post.text)
+# new_commit_sha = commit_post["sha"]
+
+# # update head
+# update_url = "https://api.github.com/repos/philiplee13/automation_scripts/git/refs/heads/main"
+# data = {
+#     "sha":new_commit_sha,
+#     "force":True
+# }
+# update_post = r.patch(update_url,data=json.dumps(data),headers = {"Content-Type": "application/json", "Authorization": "token "+github_api})
+# update_post = json.loads(update_post.text)
+# print(json.dumps(update_post,indent=4))
+
+
+
+# while view:
+#     # have option for user to choose task
+#     option = int(input("""Which of the options would you like to do?
+#     1. View all Repos?
+#     2. Create a new repo?
+#     3. Push files to a certain repo
+#     """))
+#     # option 1 - view all current repos 
+#     if option == 1:
+#         repos = json.loads(r.get(url).text)
+#         for repo in repos:
+#             print(repo["name"])
+#         do_more = str(input("Would you like to do something else? Y/N")).upper()
+#         if do_more == "Y":
+#             view = True
+#         else:
+#             view = False
+#     # option 2 - create a new repo
+#     elif option == 2:
+#         str_data = (input("""
+#         Please enter in the following information for your repo in the order provided
+#         Name,Description
+#         """))
+#         boolean_data = input("""
+#         Please enter True or False if you need the following
+#         README,private repo
+#         """)
+#         boolean_data = boolean_data.split(",")
+#         data = {
+#             "name":str_data.split(",")[0],
+#             "description":str_data.split(",")[1],
+#             "auto_init":ast.literal_eval(boolean_data[0]),
+#             "private":ast.literal_eval(boolean_data[1])
+#             }
+#         print(data)
+#         r.post(url,json.dumps(data))
+#         do_more = str(input("Would you like to do something else? Y/N")).upper()
+#         if do_more == "Y":
+#             view = True
+#         else:
+#             view = False
+#     elif option == 3:
+#         # push files to a certain repo
+        
+#         # get a reference to the head 
+#         repo = "automation_scripts"
+#         path = "https://api.github.com/repos/philiplee13/automation_scripts/git/ref/heads/main"
+#         rget = r.get(path)
+#         head_reference = rget.json()
+#         # print(json.dumps(head_reference,indent=4))
+#         sha = head_reference["object"]["sha"]
+#         head_url = head_reference["object"]["url"]
+
+#         # grab the commit the head points to
+#         rget2 = r.get(head_url)
+#         rget2_json = rget2.json()
+#         # print(json.dumps(rget2_json,indent=4))
+#         commit_sha = rget2_json["parents"][0]["sha"]
+#         tree_sha = rget2_json["tree"]["sha"]
+#         tree_url = rget2_json["tree"]["url"]
+
+#         # # post your new file to the server
+#         url = "https://api.github.com/repos/philiplee13/automation_scripts/git/blobs"
+#         filename="github_automate.py"
+#         base64content = base64.b64encode(open(filename,"rb").read())
+#         data = {
+#             "message":"update",
+#             "branch":"main",
+#             "content":base64content.decode("utf-8"),
+#             "sha":sha
+#             }
+#         resp = requests.post(url,data=json.dumps(data),headers = {"Content-Type": "application/json", "Authorization": "token "+github_api})
+#         resp = json.loads(resp.text)
+#         resp_sha = resp["sha"]
+
+#         # create a tree containing your new file
+#         post_tree_url = "https://api.github.com/repos/philiplee13/automation_scripts/git/trees"
+#         data = {
+#             # "base_tree": "",
+#             "tree" : [
+#             {
+#             "path":"github_automate.py",
+#             "mode":"100644",
+#             "type":"blob",
+#             "sha":resp_sha
+#             }
+#         ]
+#         }
+#         tree_file = r.post(post_tree_url,data=json.dumps(data),headers = {"Content-Type": "application/json", "Authorization": "token "+github_api})
+#         tree_file = json.loads(tree_file.text)
+#         tree_file_sha = tree_file["sha"]
+
+#         # create a new commit
+#         commit_url = "https://api.github.com/repos/philiplee13/automation_scripts/git/commits"
+#         data = {
+#             "message":"update through api",
+#             "parents":[commit_sha],
+#             "tree":tree_file_sha
+#         }
+#         commit_post = r.post(commit_url,data=json.dumps(data),headers = {"Content-Type": "application/json", "Authorization": "token "+github_api})
+#         commit_post = json.loads(commit_post.text)
+#         new_commit_sha = commit_post["sha"]
+
+#         # update head
+#         update_url = "https://api.github.com/repos/philiplee13/automation_scripts/git/refs/heads/main"
+#         data = {
+#             "sha":new_commit_sha,
+#             "force":True
+#         }
+#         update_post = r.patch(update_url,data=json.dumps(data),headers = {"Content-Type": "application/json", "Authorization": "token "+github_api})
+#         update_post = json.loads(update_post.text)
+#         print(json.dumps(update_post,indent=4))
+#         do_more = str(input("Would you like to do something else? Y/N")).upper()
+#         if do_more == "Y":
+#             view = True
+#         else:
+#             view = False
